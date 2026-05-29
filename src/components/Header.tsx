@@ -5,10 +5,10 @@ import { usePathname } from "next/navigation";
 
 const nav = [
   { href: "/", label: "Panel" },
-  { href: "/expenses", label: "Harcamalar" },
-  { href: "/politicians", label: "Siyasetçiler" },
-  { href: "/ministries", label: "Bakanlıklar" },
-  { href: "/about", label: "Hakkında" },
+  { href: "/transactions", label: "İşlemler" },
+  { href: "/institutions", label: "Kurumlar" },
+  { href: "/officials", label: "Görevliler" },
+  { href: "/about", label: "API & Hakkında" },
 ];
 
 export default function Header() {

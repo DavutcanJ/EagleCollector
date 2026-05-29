@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "eaglecollector": {
+      "command": "node",
+      "args": ["mcp/server.mjs"],
+      "env": {
+        "EAGLECOLLECTOR_API_URL": "http://localhost:3000"
+      }
+    }
+  }
+}
